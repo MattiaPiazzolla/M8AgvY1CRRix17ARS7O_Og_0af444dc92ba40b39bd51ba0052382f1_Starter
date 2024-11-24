@@ -1,0 +1,260 @@
+body {
+    color: black;
+    font-family: sans-serif;
+}
+
+.title {
+    font-size: 48px;
+    margin: 30px 0 0 0;  
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.subtitle {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+.copyright-text {
+    margin: 0;
+    padding: 0;
+}
+
+#story-output {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #444;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.center-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-uppercase{
+    text-transform: uppercase;
+}
+
+.font-size-10{
+    font-size: 10px;
+}
+
+/* margin */
+.me-15{
+    margin-right: 15px;
+}
+.margin-bottom-30{
+    margin-bottom: 30px;
+}
+
+.margin-end-10{
+    margin-right: 10px;
+}
+
+.margin-y-30{
+    margin: 30px 0;
+}
+
+.margin-y-100{
+    margin: 100px 0;
+}
+
+
+.mt-150{
+    margin-top: 150px;
+}
+.mb-150{
+    margin-bottom: 150px;
+}
+
+.width-100{
+    width: 100%;
+}
+.width-75{
+    width: 75%;
+}
+.width-50{
+    width: 50%;
+}
+
+.form-container{
+    min-width: 600px;
+    margin: 0 auto;
+}
+
+.list-unstyled{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+
+.form-group{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+/* layout */
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    @media screen and (min-width: 480px) {
+        max-width: 400px;
+    }
+    @media screen and (min-width: 768px) {
+        max-width: 580px;
+    }
+    @media screen and (min-width: 1024px) {
+        max-width: 800px;
+    }
+    @media screen and (min-width: 1200px) {
+        max-width: 1000px;
+    }
+    @media screen and (min-width: 1440px) {
+        max-width: 1200px;
+        
+    }
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.col-1{
+    width: 8.33%;
+}
+.col-2{
+    width: 16.66%;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33.33%;
+}
+.col-5{
+    width: 41.66%;
+}
+.col-6{
+    width: 50%;
+}
+.col-7{
+    width: 58.33%;
+}
+.col-8{
+    width: 66.66%;
+}
+.col-9{
+    width: 75%;
+}
+.col-10{
+    width: 83.33%;
+}
+.col-11{
+    width: 91.66%;
+}
+.col-12{
+    width: 100%;
+}
+
+
+/* components */
+.card {
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.05);
+    transform: scale(1.01);
+    transition: all 0.3s ease-in-out;
+}
+.card:hover{
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+    transform: scale(0.99);
+}
+.card:active{
+    box-shadow: 12.5px 12.5px 12.5px 5px rgba(0, 0, 0, 0.01);
+    transform: scale(0.98);
+}
+
+.card img{
+    border-radius: 10px 10px 0 0;
+}
+
+.text-card{
+    padding: 10px;
+}
+
+.btn{
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 500;
+    border: none;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    border: 5px solid transparent;
+    transform: scale(1.01);
+    transition: all 0.3s ease-in-out;
+}
+.btn:hover{
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+    transform: scale(0.99);
+}
+.btn:active{
+    box-shadow: 12.5px 12.5px 12.5px 5px rgba(0, 0, 0, 0.01);
+    transform: scale(0.98);
+}
+
+.card-section{
+    background-color: white;
+    width: 50%;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.social-button{
+    font-weight: 500;
+    color: black;
+    cursor: pointer;
+}
+
+.box-shadow{
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.05);
+}
+.box-shadow:hover{
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+.box-shadow:active{
+    box-shadow: 12.5px 12.5px 12.5px 5px rgba(0, 0, 0, 0.01);
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
